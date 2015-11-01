@@ -1,0 +1,32 @@
+.navbar-default {
+  background-color: #007AA9; }
+  .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #fff; }
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+    color: #ccc; }
+
+#sidebar-wrapper {
+  background-color: #007AA9; }
+  #sidebar-wrapper .sidebar-nav li a {
+    color: #fff; }
+  #sidebar-wrapper .sidebar-nav li a:hover {
+    color: #ccc; }
+  #sidebar-wrapper .sidebar-nav li {
+    text-indent: 9px; }
+
+.navbar-default {
+  color: #35384C; }
+
+.contenido {
+  padding: 3% 7% 3% 2%; }
+
+.txt-rosado {
+  color: #F5548E; }
+
+.txt-turquesa {
+  color: #007AA9; }
+
+.pb-5 {
+  padding-bottom: 5%; }
+
+/*# sourceMappingURL=common.css.map */

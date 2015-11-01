@@ -1,0 +1,52 @@
+$turquesa: #007AA9;
+$turquesa-hover: #4287F6;
+$azul-oscuro: #35384C;
+$rosado: #F5548E;
+
+.navbar-default{
+	background-color: $turquesa;
+
+	.navbar-brand, .navbar-nav>li>a{
+		color:#fff;
+	}
+
+	.navbar-brand:hover, .navbar-nav>li>a:hover{
+		color:#ccc;
+	}
+}
+
+#sidebar-wrapper{
+	background-color: $turquesa;
+
+	.sidebar-nav li a {
+		color: #fff;
+	}
+
+	.sidebar-nav li a:hover {
+		color: #ccc;
+	}
+
+	.sidebar-nav li {
+		text-indent: 9px;
+	}
+}
+
+.navbar-default {
+	color: $azul-oscuro;
+}
+
+.contenido{
+	padding: 3% 7% 3% 2%;
+}
+
+.txt-rosado{
+	color:$rosado;
+}
+
+.txt-turquesa{
+	color: $turquesa;
+}
+
+.pb-5{
+	padding-bottom: 5%;
+}
