@@ -29,4 +29,13 @@
 .pb-5 {
   padding-bottom: 5%; }
 
+.mb-2 {
+  margin-bottom: 2%; }
+
+.comment {
+  padding: 3% 3%;
+  background-color: #DEE0E3;
+  color: #3b4657;
+  margin-bottom: 2%; }
+
 /*# sourceMappingURL=common.css.map */
