@@ -1,22 +1,31 @@
-$turquesa: #007AA9;
+$turquesa: #459BD0;
 $turquesa-hover: #4287F6;
-$azul-oscuro: #35384C;
+$azul-oscuro: #2D3E50;
 $rosado: #F5548E;
+$rosado-hover: #F83079;
 
 .navbar-default{
-	background-color: $turquesa;
+	background-color: $azul-oscuro;
+	border-bottom: 3px solid #459BD0;
+	padding: 1.2%;
+
+	.navbar-brand img{
+		width: 15%;
+		margin-top: -15px;
+
+	}
 
 	.navbar-brand, .navbar-nav>li>a{
 		color:#fff;
 	}
 
 	.navbar-brand:hover, .navbar-nav>li>a:hover{
-		color:#ccc;
+		color: $turquesa;
 	}
 }
 
 #sidebar-wrapper{
-	background-color: $turquesa;
+	background-color: $azul-oscuro;
 
 	.sidebar-nav li a {
 		color: #fff;
@@ -47,8 +56,8 @@ $rosado: #F5548E;
 	color: $turquesa;
 }
 
-.pb-5{
-	padding-bottom: 5%;
+.pb-3{
+	padding-bottom: 3%;
 }
 
 .mb-2{
@@ -60,4 +69,29 @@ $rosado: #F5548E;
     background-color: #DEE0E3;
     color: #3b4657;
     margin-bottom: 2%;
+}
+.btn, .btn:hover{
+	color: #fff;
+	border-color: transparent;
+	font-size: 18px;
+}
+
+.btn-rosa {
+	background-color: $rosado;	
+}
+
+.btn-rosa:hover {
+	background-color: $rosado-hover;	
+}
+
+.btn-turquesa {
+	background-color: $turquesa;	
+}
+
+.btn-turquesa:hover {
+	background-color: $turquesa-hover;	
+}
+
+h2{
+	margin-bottom: 20px;
 }
