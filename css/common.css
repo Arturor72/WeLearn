@@ -52,7 +52,7 @@
   padding: 3%; }
 
 .txt-rosado {
-  color: #F5548E; }
+  color: #FA75A6; }
 
 .txt-turquesa {
   color: #459BD0; }
@@ -75,10 +75,10 @@
   font-size: 18px; }
 
 .btn-rosa {
-  background-color: #F5548E; }
+  background-color: #FA75A6; }
 
 .btn-rosa:hover {
-  background-color: #F83079; }
+  background-color: #FA5591; }
 
 .btn-turquesa {
   background-color: #459BD0; }
@@ -88,5 +88,19 @@
 
 h2 {
   margin-bottom: 20px; }
+
+.box {
+  border: 1px solid #459BD0;
+  padding: 3% 6%;
+  margin: 2% 0%; }
+  .box h3 {
+    margin: 0%; }
+  .box i {
+    font-size: 18px;
+    padding: 0% 0.5%;
+    color: #FA75A6; }
+
+.box:hover {
+  border: 1px solid #4287F6; }
 
 /*# sourceMappingURL=common.css.map */

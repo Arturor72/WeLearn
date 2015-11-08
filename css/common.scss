@@ -1,8 +1,8 @@
 $turquesa: #459BD0;
 $turquesa-hover: #4287F6;
 $azul-oscuro: #2D3E50;
-$rosado: #F5548E;
-$rosado-hover: #F83079;
+$rosado: #FA75A6;
+$rosado-hover: #FA5591;
 
 .txt-turquesa{
 	color:$turquesa;
@@ -22,7 +22,6 @@ $rosado-hover: #F83079;
 	.navbar-brand img{
 		width: 15%;
 		margin-top: -15px;
-
 	}
 
 	.navbar-brand, .navbar-nav>li>a{
@@ -135,4 +134,24 @@ $rosado-hover: #F83079;
 
 h2{
 	margin-bottom: 20px;
+
+}
+.box{
+	border: 1px solid $turquesa;
+	padding: 3% 6%;
+	margin: 2% 0%;
+
+	h3{
+		margin: 0%;
+	}
+
+	i{
+		font-size: 18px;
+		padding: 0% 0.5%;
+		color: $rosado;
+	}
+}
+
+.box:hover{
+	border: 1px solid $turquesa-hover;
 }
