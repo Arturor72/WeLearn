@@ -1,3 +1,12 @@
+.txt-turquesa {
+  color: #459BD0; }
+
+.label-turquesa {
+  background-color: #459BD0; }
+
+.label-turquesa:hover {
+  background-color: #4287F6; }
+
 .navbar-default {
   background-color: #2D3E50;
   border-bottom: 3px solid #459BD0;
@@ -8,6 +17,20 @@
   .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: #fff; }
   .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+    color: #459BD0; }
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #459BD0; }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #459BD0;
+    background-color: transparent; }
+
+.dropdown-menu {
+  background-color: #2D3E50; }
+  .dropdown-menu > li > a {
+    color: #fff;
+    background-color: #2D3E50; }
+  .dropdown-menu > li > a:hover {
+    background-color: transparent;
     color: #459BD0; }
 
 #sidebar-wrapper {

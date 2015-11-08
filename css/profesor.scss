@@ -1,5 +1,5 @@
 $turquesa: #459BD0;
-$turquesa-hover: #4287F6;
+$turquesa-hover: #1381C5;
 $azul-oscuro: #2D3E50;
 $rosado: #F5548E;
 $rosado-hover: #F83079;
@@ -20,3 +20,6 @@ $rosado-hover: #F83079;
 	}
 }
 
+.box:hover{
+	border: 3px solid $turquesa-hover;
+}
