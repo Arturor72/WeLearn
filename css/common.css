@@ -12,18 +12,21 @@
 
 #sidebar-wrapper {
   background-color: #2D3E50; }
-  #sidebar-wrapper .sidebar-nav li a {
-    color: #fff; }
-  #sidebar-wrapper .sidebar-nav li a:hover {
-    color: #ccc; }
-  #sidebar-wrapper .sidebar-nav li {
-    text-indent: 9px; }
+  #sidebar-wrapper .sidebar-nav {
+    padding-top: 21%; }
+    #sidebar-wrapper .sidebar-nav li {
+      text-indent: 9px; }
+      #sidebar-wrapper .sidebar-nav li a {
+        color: #fff; }
+      #sidebar-wrapper .sidebar-nav li a:hover {
+        color: #459BD0;
+        background-color: transparent; }
 
 .navbar-default {
   color: #2D3E50; }
 
 .contenido {
-  padding: 3% 7% 3% 2%; }
+  padding: 3%; }
 
 .txt-rosado {
   color: #F5548E; }

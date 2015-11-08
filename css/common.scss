@@ -27,16 +27,21 @@ $rosado-hover: #F83079;
 #sidebar-wrapper{
 	background-color: $azul-oscuro;
 
-	.sidebar-nav li a {
-		color: #fff;
-	}
+	.sidebar-nav {
+		padding-top: 21%;
 
-	.sidebar-nav li a:hover {
-		color: #ccc;
-	}
-
-	.sidebar-nav li {
+		li {
 		text-indent: 9px;
+		
+			a {
+				color: #fff;
+			}
+
+			a:hover {
+				color: $turquesa;
+				background-color: transparent;
+			}	
+		}
 	}
 }
 
@@ -45,7 +50,7 @@ $rosado-hover: #F83079;
 }
 
 .contenido{
-	padding: 3% 7% 3% 2%;
+	padding: 3%;
 }
 
 .txt-rosado{
