@@ -137,7 +137,9 @@ h2{
 
 }
 .box{
-	border: 1px solid $turquesa;
+	border: 1px solid #D8D8D8;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px 0px #6E6E6E;
 	padding: 3% 6%;
 	margin: 2% 0%;
 
@@ -150,8 +152,4 @@ h2{
 		padding: 0% 0.5%;
 		color: $rosado;
 	}
-}
-
-.box:hover{
-	border: 1px solid $turquesa-hover;
 }
