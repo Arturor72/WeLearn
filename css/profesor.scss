@@ -1,0 +1,28 @@
+$turquesa: #459BD0;
+$turquesa-hover: #4287F6;
+$azul-oscuro: #2D3E50;
+$rosado: #F5548E;
+$rosado-hover: #F83079;
+
+.box{
+	border: 3px solid $turquesa;
+	padding: 3%;
+	margin: 2% 0%;
+}
+
+
+.box{
+	border: 3px solid $turquesa;
+	padding: 3% 6%;
+	margin: 2% 0%;
+
+	h3{
+		margin: 0%;
+	}
+
+	i{
+		font-size: 18px;
+		padding: 0% 0.5%;
+		color: $rosado;
+	}
+}

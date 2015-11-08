@@ -1,0 +1,17 @@
+.box {
+  border: 3px solid #459BD0;
+  padding: 3%;
+  margin: 2% 0%; }
+
+.box {
+  border: 3px solid #459BD0;
+  padding: 3% 6%;
+  margin: 2% 0%; }
+  .box h3 {
+    margin: 0%; }
+  .box i {
+    font-size: 18px;
+    padding: 0% 0.5%;
+    color: #F5548E; }
+
+/*# sourceMappingURL=profesor.css.map */
