@@ -38,7 +38,7 @@
 			      	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
 			    </div>
 			  </div>
-			  <a href="p-inicio.html" class="btn btn-default btn-md btn-block">Ingresar</a>			  
+			  <dvi h class="btn btn-default btn-md btn-block" id="ingresar">Ingresar</div>			  
 			</form>
 		</div>
 		<div class="row">
@@ -50,7 +50,25 @@
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+
+	var main=function(){
+		$("#ingresar").click(function(){
+			console.log("name");
+				var name=$("#exampleInputEmail1").val();
+			console.log(name);
+			if(name==="Martin"){
+				window.location="e-inicio.html";
+			}else{
+				window.location="p-inicio.html";
+			}
+
+		})
+		
+	}
+	$(document).ready(main);
+	</script>
 </body>
 </html>
