@@ -94,7 +94,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Martin <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
@@ -151,22 +151,15 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="active">
-                    <a href="e-inicio.html"><i class="fa fa-home"></i></i> Inicio</a>
+                    <a href="e-inicio.html"><i class="fa fa-home"></i> Inicio</a>
+                </li>
+                
+                <li>
+                    <a href="e-nuevo-problema.html"><i class="fa fa-pencil"></i> Nuevo ejercicio</a>
                 </li>
                 <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Problemas <i class="fa fa-fw fa-caret-down"></i></a>
-                    <ul id="demo" class="collapse">
-                        <li>
-                            <a href="e-nuevo-problema.html">Nuevo</a>
-                        </li>
-                        <li>
-                            <a href="e-resolucion.html">Solución</a>
-                        </li>
-                        <li>
-                            <a href="e-ejercicios-anteriores.html">Anteriores</a>
-                        </li>
-                    </ul>
-                </li>                    
+                    <a href="e-ejercicios-anteriores.html"><i class="fa fa-check"></i> Tus ejercicios</a>
+                </li>                                    
             </ul>
         </div>
         <section class="contenido">
@@ -191,7 +184,7 @@
               <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">Problema</label>
                 <div class="col-sm-10">
-                  <textarea class="form-control" rows="3"></textarea>
+                  <input type="file" class="form-control" id="inputEmail3" placeholder="">
                 </div>
               </div>
               <div class="form-group">
@@ -221,8 +214,8 @@
                   </div>
                   <div class="col-sm-6">
                     <img src="img/estudiante-universidad.jpg" alt="">
-                    <h4>José Rojas</h4>
-                    <h5>Estudiante de Ing. Industrial UNI</h5>
+                    <h4>Sandy Borjas</h4>
+                    <h5>Estudiante de Ing. Sistemas UNMSM</h5>
                     <label class="radio-inline">
                       <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     </label>
@@ -232,7 +225,7 @@
               
               <div class="form-group">
                 <div class="col-sm-offset-5 col-sm-7">
-                  <button type="submit" class="btn btn-default">Enviar</button>
+                  <a type="submit" href="e-inicio.html" class="btn btn-default">Enviar</a>
                 </div>
               </div>
             </form>
