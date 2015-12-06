@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAQA,aAAa;EACZ,MAAM,EAAE,cAAc;EACtB,MAAM,EAAE,MAAM",
+"sources": ["profesor.scss"],
 "names": [],
 "file": "profesor.css"
 }
